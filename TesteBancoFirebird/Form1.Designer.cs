@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
       this.dataGridView1 = new System.Windows.Forms.DataGridView();
+      this.lblMensagem = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -41,21 +42,34 @@
       this.dataGridView1.Size = new System.Drawing.Size(784, 329);
       this.dataGridView1.TabIndex = 0;
       // 
+      // lblMensagem
+      // 
+      this.lblMensagem.AutoSize = true;
+      this.lblMensagem.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+      this.lblMensagem.Location = new System.Drawing.Point(324, 373);
+      this.lblMensagem.Name = "lblMensagem";
+      this.lblMensagem.Size = new System.Drawing.Size(63, 25);
+      this.lblMensagem.TabIndex = 1;
+      this.lblMensagem.Text = "label1";
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(800, 450);
+      this.Controls.Add(this.lblMensagem);
       this.Controls.Add(this.dataGridView1);
       this.Name = "Form1";
       this.Text = "Form1";
       ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
       this.ResumeLayout(false);
+      this.PerformLayout();
 
         }
 
         #endregion
 
         private DataGridView dataGridView1;
+        private Label lblMensagem;
     }
 }

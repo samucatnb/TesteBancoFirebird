@@ -17,7 +17,7 @@ namespace TesteBancoFirebird
     }
 
 
-    private string StringConexao
+    public static string StringConexao
     {
       //get => @"DataSource=localhost; Database=C:\Program Files (x86)\Firebird\Firebird_2_5\examples\empbuild\EMPLOYEE.FDB; username= SYSDBA; password = masterkey";
       get => @"Database=localhost/3050:C:\FB_BANCOS\BANCO_MQFS.fdb; username= SYSDBA; password = masterkey";
